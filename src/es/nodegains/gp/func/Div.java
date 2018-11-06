@@ -27,7 +27,7 @@ import es.nodegains.gp.GPNodeGain;
 
 public class Div extends GPNodeGain
     {
-    public String toString() { return "%"; }
+    public String toString() { return this.stringGain()+"%"; }
 
 /*
   public void checkConstraints(final EvolutionState state,

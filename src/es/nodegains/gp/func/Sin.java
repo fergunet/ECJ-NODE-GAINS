@@ -27,7 +27,7 @@ import es.nodegains.gp.GPNodeGain;
 
 public class Sin extends GPNodeGain
     {
-    public String toString() { return "sin"; }
+    public String toString() { return this.stringGain()+"sin"; }
 
 /*
   public void checkConstraints(final EvolutionState state,

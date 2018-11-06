@@ -27,7 +27,7 @@ import es.nodegains.gp.GPNodeGain;
 
 public class Cos extends GPNodeGain
     {
-    public String toString() { return "cos"; }
+    public String toString() { return this.stringGain()+"cos"; }
 
 /*
   public void checkConstraints(final EvolutionState state,

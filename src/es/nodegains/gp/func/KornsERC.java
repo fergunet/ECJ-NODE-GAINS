@@ -33,7 +33,7 @@ import java.io.*;
 
 public class KornsERC extends RegERC
     {
-    public String name() { return "KornsERC"; }
+    public String name() { return this.stringGain()+"KornsERC"; }
 
     public void resetNode(final EvolutionState state, final int thread)
         { 

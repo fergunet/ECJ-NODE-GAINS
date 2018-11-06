@@ -29,7 +29,7 @@ public class Log extends GPNodeGain
     {
     private static final long serialVersionUID = 1;
 
-    public String toString() { return "rlog"; }
+    public String toString() { return this.stringGain()+"rlog"; }
 
 /*
   public void checkConstraints(final EvolutionState state,

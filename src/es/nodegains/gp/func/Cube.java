@@ -31,7 +31,7 @@ import es.nodegains.gp.GPNodeGain;
 
 public class Cube extends GPNodeGain
     {
-    public String toString() { return "cube"; }
+    public String toString() { return this.stringGain()+"cube"; }
 
     public int expectedChildren() { return 1; }
 

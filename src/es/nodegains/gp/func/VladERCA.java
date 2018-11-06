@@ -33,7 +33,7 @@ import java.io.*;
 
 public class VladERCA extends RegERC
     {
-    public String name() { return "VladERCA"; }
+    public String name() { return this.stringGain()+"VladERCA"; }
     public int expectedChildren() { return 1; }
 
     public void resetNode(final EvolutionState state, final int thread)

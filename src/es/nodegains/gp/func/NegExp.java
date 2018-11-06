@@ -29,7 +29,7 @@ import es.nodegains.gp.GPNodeGain;
 
 public class NegExp extends GPNodeGain
     {
-    public String toString() { return "negexp"; }
+    public String toString() { return this.stringGain()+"negexp"; }
 
     public int expectedChildren() { return 1; }
 

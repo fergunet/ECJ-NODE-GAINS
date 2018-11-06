@@ -32,7 +32,7 @@ import es.nodegains.gp.GPNodeGain;
 
 public class Inv extends GPNodeGain
     {
-    public String toString() { return "1/"; }
+    public String toString() { return this.stringGain()+"1/"; }
 
     public int expectedChildren() { return 1; }
 

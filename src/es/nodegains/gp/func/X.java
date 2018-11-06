@@ -27,7 +27,7 @@ import es.nodegains.gp.GPNodeGain;
 
 public class X extends GPNodeGain
     {
-    public String toString() { return "x"; }
+    public String toString() { return this.stringGain()+"x"; }
 
 /*
   public void checkConstraints(final EvolutionState state,

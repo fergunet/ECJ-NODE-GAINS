@@ -12,7 +12,7 @@ import ec.gp.GPNode;
  * @author pgarcia
  */
 public abstract class GPNodeGain extends GPNode{
-    private double gain;
+    private double gain = 1.0;
 
     public double getGain() {
         return gain;
@@ -20,6 +20,10 @@ public abstract class GPNodeGain extends GPNode{
 
     public void setGain(double gain) {
         this.gain = gain;
+    }
+    
+    public String stringGain(){
+        return "["+this.gain+"]";
     }
     
     

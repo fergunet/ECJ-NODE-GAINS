@@ -32,7 +32,7 @@ import es.nodegains.gp.GPNodeGain;
 
 public class Sqrt extends GPNodeGain
     {
-    public String toString() { return "sqrt"; }
+    public String toString() { return this.stringGain()+"sqrt"; }
 
     public int expectedChildren() { return 1; }
 

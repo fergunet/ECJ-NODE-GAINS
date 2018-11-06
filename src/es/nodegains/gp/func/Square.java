@@ -31,7 +31,7 @@ import es.nodegains.gp.GPNodeGain;
 
 public class Square extends GPNodeGain
     {
-    public String toString() { return "square"; }
+    public String toString() { return this.stringGain()+"square"; }
 
     public int expectedChildren() { return 1; }
 

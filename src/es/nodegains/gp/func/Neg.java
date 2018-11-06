@@ -30,7 +30,7 @@ import es.nodegains.gp.GPNodeGain;
 
 public class Neg extends GPNodeGain
     {
-    public String toString() { return "0-"; }
+    public String toString() { return this.stringGain()+"0-"; }
 
     public int expectedChildren() { return 1; }
 

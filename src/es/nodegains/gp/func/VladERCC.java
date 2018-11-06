@@ -30,7 +30,7 @@ import java.io.*;
 
 public class VladERCC extends VladERCA
     {
-    public String name() { return "VladERCC"; }
+    public String name() { return this.stringGain()+"VladERCC"; }
 
     public String toStringForHumans()
         { return "n*" + value; }

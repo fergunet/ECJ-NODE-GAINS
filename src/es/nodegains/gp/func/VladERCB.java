@@ -32,7 +32,7 @@ import java.io.*;
 
 public class VladERCB extends VladERCA
     {
-    public String name() { return "VladERCB"; }
+    public String name() { return this.stringGain()+"VladERCB"; }
 
     public String toStringForHumans()
         { return "n+" + value; }

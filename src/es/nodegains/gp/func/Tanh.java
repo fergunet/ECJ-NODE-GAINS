@@ -32,7 +32,7 @@ import es.nodegains.gp.GPNodeGain;
 
 public class Tanh extends GPNodeGain
     {
-    public String toString() { return "tanh"; }
+    public String toString() { return this.stringGain()+"tanh"; }
 
     public int expectedChildren() { return 1; }
 

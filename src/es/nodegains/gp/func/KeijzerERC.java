@@ -36,7 +36,7 @@ public class KeijzerERC extends RegERC
     public static final double MEAN = 0.0;
     public static final double STANDARD_DEVIATION = 5.0;
     
-    public String name() { return "KeijzerERC"; }
+    public String name() { return this.stringGain()+"KeijzerERC"; }
 
     public void resetNode(final EvolutionState state, final int thread)
         { 
