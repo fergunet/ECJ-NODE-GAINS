@@ -980,7 +980,7 @@ gp.fs.12.func.13.nc = nc0
 
 
 ### Don't mess with this, it defines our problem and data 
-eval.problem = ec.app.regression.Benchmarks
+eval.problem = es.nodegains.gp.Benchmarks
 eval.problem.data = ec.app.regression.RegressionData
 
 

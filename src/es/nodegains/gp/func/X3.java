@@ -52,9 +52,9 @@ public class X3 extends GPNodeGain
         final Problem problem)
         {
         RegressionData rd = ((RegressionData)(input));
-        double[] c = ((Benchmarks)problem).currentValue;
+        double[] c = ((es.nodegains.gp.Benchmarks)problem).currentValue;
         if (c.length >= 3)
-            rd.x = ((Benchmarks)problem).currentValue[2];
+            rd.x = ((es.nodegains.gp.Benchmarks)problem).currentValue[2];
         else rd.x = 0;
         rd.x = rd.x*this.getGain();
         }
