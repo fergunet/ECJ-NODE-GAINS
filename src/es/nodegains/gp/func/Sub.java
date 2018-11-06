@@ -59,6 +59,7 @@ public class Sub extends GPNodeGain
 
         children[1].eval(state,thread,input,stack,individual,problem);
         rd.x = result - rd.x;
+        rd.x = rd.x*this.getGain();
         }
     }
 

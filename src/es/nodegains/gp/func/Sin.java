@@ -55,6 +55,7 @@ public class Sin extends GPNodeGain
 
         children[0].eval(state,thread,input,stack,individual,problem);
         rd.x = /*Strict*/Math.sin(rd.x);
+        rd.x = rd.x*this.getGain();
         }
     }
 

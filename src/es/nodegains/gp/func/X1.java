@@ -56,6 +56,7 @@ public class X1 extends GPNodeGain
         if (c.length >= 1)
             rd.x = ((Benchmarks)problem).currentValue[0];
         else rd.x = 0;
+        rd.x = rd.x*this.getGain();
         }
     }
 

@@ -55,6 +55,7 @@ public class Cos extends GPNodeGain
 
         children[0].eval(state,thread,input,stack,individual,problem);
         rd.x = /*Strict*/Math.cos(rd.x);
+        rd.x = rd.x*this.getGain();
         }
     }
 

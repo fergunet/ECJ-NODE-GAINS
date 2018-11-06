@@ -47,6 +47,7 @@ public class Tanh extends GPNodeGain
 
         children[0].eval(state,thread,input,stack,individual,problem);
         rd.x = Math.tanh(rd.x);
+        rd.x = rd.x*this.getGain();
         }
     }
 

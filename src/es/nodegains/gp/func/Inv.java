@@ -47,6 +47,7 @@ public class Inv extends GPNodeGain
 
         children[0].eval(state,thread,input,stack,individual,problem);
         rd.x = 1.0 / rd.x;
+        rd.x = rd.x*this.getGain();
         }
     }
 

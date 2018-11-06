@@ -53,6 +53,7 @@ public class X extends GPNodeGain
         {
         RegressionData rd = ((RegressionData)(input));
         rd.x = ((Regression)problem).currentValue;
+        rd.x = rd.x*this.getGain();
         }
     }
 

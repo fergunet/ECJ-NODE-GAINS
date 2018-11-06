@@ -55,6 +55,7 @@ public class VladERCA extends RegERC
 
         children[0].eval(state,thread,input,stack,individual,problem);
         rd.x = Math.pow(rd.x, value);
+        rd.x = rd.x*this.getGain();
         }
 
     }

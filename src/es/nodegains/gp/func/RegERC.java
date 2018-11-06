@@ -107,6 +107,7 @@ public class RegERC extends ERCNodeGain
         {
         RegressionData rd = ((RegressionData)(input));
         rd.x = value;
+        rd.x = rd.x*this.getGain();
         }
     }
 

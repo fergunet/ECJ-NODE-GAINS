@@ -47,6 +47,7 @@ public class Tan extends GPNodeGain
 
         children[0].eval(state,thread,input,stack,individual,problem);
         rd.x = Math.tan(rd.x);
+        rd.x = rd.x*this.getGain();
         }
     }
 

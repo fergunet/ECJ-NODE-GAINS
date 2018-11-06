@@ -57,6 +57,7 @@ public class Log extends GPNodeGain
 
         children[0].eval(state,thread,input,stack,individual,problem);
         rd.x = (rd.x == 0.0 ? 0.0 : /*Strict*/Math.log(/*Strict*/Math.abs(rd.x)));
+        rd.x = rd.x*this.getGain();
         }
     }
 
