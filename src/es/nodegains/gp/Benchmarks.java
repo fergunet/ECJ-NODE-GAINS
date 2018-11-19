@@ -930,7 +930,7 @@ public class Benchmarks extends GPProblem implements SimpleProblemForm
             
 
              }*/
-            bestCombination = SARunner.runSA(state, ind, threadnum);
+            //bestCombination = SARunner.runSA(state, ind, threadnum);
 
             TreeManager.setGainsToTree(gptree, bestCombination);
             ind.fitness = calculateFitness(state, ind, threadnum);
