@@ -99,7 +99,7 @@ checkpoint-prefix = 			ec
 # ==============================
 
 # simple generational evolution
-state = 				ec.simple.SimpleEvolutionState
+#state = 				ec.simple.SimpleEvolutionState
 
 
 
@@ -107,7 +107,7 @@ state = 				ec.simple.SimpleEvolutionState
 # ==============================
 
 # We're using the standard initialization method
-init = 					ec.simple.SimpleInitializer
+#init = 					ec.simple.SimpleInitializer
 
 # We're using the standard (empty) finalization method
 finish = 	        		ec.simple.SimpleFinisher
@@ -116,16 +116,35 @@ finish = 	        		ec.simple.SimpleFinisher
 exch = 					ec.simple.SimpleExchanger
 
 # We're using standard breeding -- no cross-population breeding
-breed =					ec.simple.SimpleBreeder
+#breed =					ec.simple.SimpleBreeder
 
 # We're using standard evaluation -- no coevolution
-eval =					ec.simple.SimpleEvaluator
+#eval =					ec.simple.SimpleEvaluator
 
 # We're using simple statistics
 stat =					ec.simple.SimpleStatistics
 
+#PABLO: Steady state
+state = ec.steadystate.SteadyStateEvolutionState
+breed = ec.steadystate.SteadyStateBreeder
+eval = ec.steadystate.SteadyStateEvaluator
+steady.deselector.0 = ec.select.RandomSelection
+
+
+
+#################################
+stat.num-children = 1
+#stat.child.0 = ec.gp.koza.KozaShortStatistics
+stat.child.0 = ec.simple.SimpleShortStatistics
+stat.child.0.file = $out2.stat
+stat.child.0.do-size = true
+#Specific to Koza stats
+#stat.child.0.do-depth = true
+stat.child.0.do-time = true
+
 # run for 51 generations, quit prematurely if I find something ideal
-generations =				51
+#generations =				51
+evaluations = 3000
 quit-on-run-complete =			true
 
 

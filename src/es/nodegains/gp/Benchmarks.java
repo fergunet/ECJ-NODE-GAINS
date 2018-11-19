@@ -5,6 +5,7 @@ import ec.*;
 import ec.gp.*;
 import ec.gp.koza.*;
 import ec.simple.*;
+import es.nodegains.gp.util.SARunner;
 import es.nodegains.gp.util.TreeManager;
 import java.io.*;
 import java.util.*;
@@ -854,7 +855,7 @@ public class Benchmarks extends GPProblem implements SimpleProblemForm
 
 ///// Evaluation.  evaluate(...) uses training cases, and describe(...) uses testing cases
 
-    private KozaFitness calculateFitness(EvolutionState state, GPIndividual ind, int threadnum){
+    public KozaFitness calculateFitness(EvolutionState state, GPIndividual ind, int threadnum){
          RegressionData input = (RegressionData)(this.input);
 
             int hits = 0;
@@ -885,47 +886,55 @@ public class Benchmarks extends GPProblem implements SimpleProblemForm
     
     }
     
-    public void optimizeGainsRandom(EvolutionState state, GPIndividual ind, int threadnum){
-        
-        GPTree gptree = ((GPIndividual)ind).trees[0];
+
+    
+    public void optimizeGains(EvolutionState state, GPIndividual ind, int threadnum) {
+
+        GPTree gptree = ((GPIndividual) ind).trees[0];
         //gptree.printTree(state, 0);
-        
-        if(!ind.evaluated){
+
+        if (!ind.evaluated) {
             KozaFitness f = calculateFitness(state, ind, threadnum);
             ind.fitness = f;
-        }
-        KozaFitness bestFitness = (KozaFitness) ind.fitness;            
-        ArrayList<Double> bestCombination = TreeManager.getGainsFromTree(gptree);
-        
-        int n = 0;
+
+            KozaFitness bestFitness = (KozaFitness) ind.fitness;
+            ArrayList<Double> bestCombination = TreeManager.getGainsFromTree(gptree);
+
         //System.out.println("OPTIMIZING INDIVIDUAL");
-        //gptree.printTree(state, 0);
-        
-        while(n < 10){
-            //System.out.println("N = "+n);
-            ArrayList<Double> currentCombination = new ArrayList<Double>();
-            for(int i = 0; i < bestCombination.size(); i++){ //The number of gains remains constant
-                currentCombination.add(state.random[threadnum].nextDouble(true, true)); //Fill with random numbers
-            }
+            //gptree.printTree(state, 0);
+            /*if(method.equals("random")){
+             int n = 0;
+             while (n < 10) {
+             //System.out.println("N = "+n);
+             ArrayList<Double> currentCombination = new ArrayList<Double>();
+             for (int i = 0; i < bestCombination.size(); i++) { //The number of gains remains constant
+             currentCombination.add(state.random[threadnum].nextDouble(true, true)); //Fill with random numbers
+             //currentCombination.add(1.0);
+             }
+
+             //System.out.println(currentCombination);
+             //Add the new gains to the individual and evaluate it
+             TreeManager.setGainsToTree(gptree, currentCombination);
+             KozaFitness kf = calculateFitness(state, ind, threadnum);
+             //System.out.println(kf.standardizedFitness());
+
+             if (kf.betterThan(bestFitness)) {
+             bestCombination = currentCombination;
+             bestFitness = kf;
+             //System.out.println("Best fitness found "+bestFitness.standardizedFitness());
+             }
+             n++;
+
+             }
+             } else if (method.equals("SA")) {
             
-            //System.out.println(currentCombination);
-            
-            //Add the new gains to the individual and evaluate it
-            TreeManager.setGainsToTree(gptree, currentCombination);
-            KozaFitness kf = calculateFitness(state, ind, threadnum);
-            //System.out.println(kf.standardizedFitness());
-            
-            if(kf.betterThan(bestFitness)){
-                bestCombination = currentCombination;
-                bestFitness = kf;
-                //System.out.println("Best fitness found "+bestFitness.standardizedFitness());
-            }
-            n++;
-      
+
+             }*/
+            bestCombination = SARunner.runSA(state, ind, threadnum);
+
+            TreeManager.setGainsToTree(gptree, bestCombination);
+            ind.fitness = calculateFitness(state, ind, threadnum);
         }
-        
-        ind.fitness = bestFitness;
-        TreeManager.setGainsToTree(gptree, bestCombination);
     }
     
     
@@ -950,7 +959,7 @@ public class Benchmarks extends GPProblem implements SimpleProblemForm
             //System.out.println("UPDATING GAINS OF INDIVIDUAL ");
             //((GPIndividual)ind).trees[0].printTree(state, 0);
             
-            optimizeGainsRandom(state, (GPIndividual) ind, threadnum);
+            optimizeGains(state, (GPIndividual) ind, threadnum);
             ind.evaluated = true;
             
             //System.out.println("NOW THE INDIVIDUAL IS ");
