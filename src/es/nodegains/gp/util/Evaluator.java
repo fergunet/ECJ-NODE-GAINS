@@ -27,14 +27,13 @@ import java.util.ArrayList;
     int threadNum;
     
 
-    public void setBenchmarks(Benchmarks benchs){
-        this.benchs = benchs;
-    }
 
-    public void setArguments(EvolutionState state, GPIndividual ind, int threadNum){
+
+    public void setArguments(EvolutionState state, GPIndividual ind, int threadNum, Benchmarks benchs){
         this.state = state;
         this.ind = ind;
         this.threadNum = threadNum;
+        this.benchs = benchs;
     }
     @Override
     public double getValue(T point) {
@@ -50,7 +49,7 @@ import java.util.ArrayList;
         return value;*/
         ArrayList<Double> v = new ArrayList<Double>();
         for(int i = 0; i< point.getDimension();i++){
-            v.add(point.getEntry());
+            v.add(point.getEntry(i));
         }
         TreeManager.setGainsToTree(ind.trees[0], v);
         KozaFitness kf = this.benchs.calculateFitness(state, ind, threadNum);

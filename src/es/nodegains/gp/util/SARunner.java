@@ -20,6 +20,7 @@ import com.dosilovic.hermanzvonimir.ecfjava.numeric.IFunction;
 import com.dosilovic.hermanzvonimir.ecfjava.numeric.RastriginFunction;
 import ec.EvolutionState;
 import ec.gp.GPIndividual;
+import es.nodegains.gp.Benchmarks;
 import java.util.ArrayList;
 
 /**
@@ -28,17 +29,17 @@ import java.util.ArrayList;
  */
 public class SARunner {
 
-    public static ArrayList<Double> runSA(EvolutionState state, GPIndividual ind, int threadNum) {
+    public static ArrayList<Double> runSA(EvolutionState state, GPIndividual ind, int threadNum, Benchmarks benchs) {
         
-        int NUMBER_OF_COMPONENTS = 30;
-        double MIN_COMPONENT_VALUE = -1;
+        //int NUMBER_OF_COMPONENTS = 30;
+        double MIN_COMPONENT_VALUE = 0;
         double MAX_COMPONENT_VALUE = 1;
         double DESIRED_PENALTY = 0;
         double DESIRED_PRECISION = 1e-3;
-        int OUTER_ITERATIONS = 4000;
+        int OUTER_ITERATIONS = 40;
         double OUTER_INITIAL_TEMP = 1000;
         double OUTER_FINAL_TEMP = 1e-4;
-        int INNER_ITERATIONS = 1000;
+        int INNER_ITERATIONS = 10;
         double INNER_INITIAL_TEMP = 1000;
         double INNER_FINAL_TEMP = 1e-4;
         double MUTATION_PROBABILITY = 0.2;
@@ -46,7 +47,7 @@ public class SARunner {
         double MUTATION_SIGMA = 0.9;
 
         Evaluator<RealVector> benchmarks = new Evaluator<>();
-        benchmarks.setArguments(state, ind, threadNum);
+        benchmarks.setArguments(state, ind, threadNum, benchs );
         IProblem<RealVector> problem = new FunctionMinimizationProblem<>(benchmarks);
 
         IMutation<RealVector> mutation = new CopyOnMutationAdapter<>(new RealVectorGaussianMutation<>(
@@ -70,19 +71,28 @@ public class SARunner {
                 innerCoolingSchedule
         );
 
-        RealVector initialSolution = new BoundedRealVector(NUMBER_OF_COMPONENTS, MIN_COMPONENT_VALUE, MAX_COMPONENT_VALUE);
+        
         //initialSolution.randomizeValues();
         ArrayList<Double> initialValues = TreeManager.getGainsFromTree(ind.trees[0]);
+        RealVector initialSolution = new BoundedRealVector(initialValues.size(), MIN_COMPONENT_VALUE, MAX_COMPONENT_VALUE);
+        
         for(int i = 0; i<initialValues.size();i++){
             initialSolution.setValue(i, initialValues.get(i));
+            //System.out.print(initialValues.get(i)+" ");
         }
-
+        //System.out.println();
+        
         simulatedAnnealing.run(initialSolution);
         RealVector bestRV= simulatedAnnealing.getBestSolution();
         ArrayList<Double> bestSol = new ArrayList<Double>();
-        for(int i = 0; i<bestRV.getSize();i++)
+        for(int i = 0; i<bestRV.getSize();i++){
             bestSol.add(bestRV.getValue(i));
+            
+        }
         
+        /*for(Double d:bestSol)
+            System.out.print(d+" ");
+        System.out.println();*/
         return bestSol;
     }
 }

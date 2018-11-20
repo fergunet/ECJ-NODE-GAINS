@@ -54,7 +54,7 @@ public class GeometricCoolingSchedule extends AbstractCoolingSchedule {
 
     @Override
     public Iterator<Double> iterator() {
-        return new Iterator<>() {
+        return new Iterator<Double>() {
             private int currentIteration;
 
             @Override

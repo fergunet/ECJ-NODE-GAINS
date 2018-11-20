@@ -51,7 +51,7 @@ public abstract class AbstractSA<T extends ISolution> extends AbstractIndividual
             solution = onOuterTemperatureStart(outerTemperature);
             setBestSolution(Solutions.betterByPenalty(bestSolution, solution));
 
-            System.err.printf(
+            /*System.err.printf(
                 "Temperature %f (%s)\n" +
                 "\t   bestPenalty: %f\n" +
                 "\tcurrentPenalty: %f\n\n",
@@ -59,7 +59,7 @@ public abstract class AbstractSA<T extends ISolution> extends AbstractIndividual
                 new Date(),
                 bestSolution.getPenalty(),
                 solution.getPenalty()
-            );
+            );*/
 
 
             for (double innerTemperature : innerCoolingSchedule) {
@@ -107,13 +107,13 @@ public abstract class AbstractSA<T extends ISolution> extends AbstractIndividual
         setBestSolution(Solutions.betterByPenalty(bestSolution, solution));
 
         Duration duration = Duration.ofNanos(System.nanoTime() - startTime);
-        System.err.printf(
+        /*System.err.printf(
             "Time: %02d:%02d:%02d.%03d\n\n",
             duration.toHoursPart(),
             duration.toMinutesPart(),
             duration.toSecondsPart(),
             duration.toMillisPart()
-        );
+        );*/
         System.err.println(bestSolution);
         System.err.println();
         System.err.flush();

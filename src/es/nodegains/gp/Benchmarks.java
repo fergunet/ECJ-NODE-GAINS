@@ -5,6 +5,7 @@ import ec.*;
 import ec.gp.*;
 import ec.gp.koza.*;
 import ec.simple.*;
+import ec.steadystate.SteadyStateEvolutionState;
 import es.nodegains.gp.util.SARunner;
 import es.nodegains.gp.util.TreeManager;
 import java.io.*;
@@ -56,6 +57,7 @@ import java.util.*;
 public class Benchmarks extends GPProblem implements SimpleProblemForm
     {
     private static final long serialVersionUID = 1;
+    private static int simulatedEvaluations = 0;
 
     //////////////////////////// problem tags
         
@@ -856,6 +858,7 @@ public class Benchmarks extends GPProblem implements SimpleProblemForm
 ///// Evaluation.  evaluate(...) uses training cases, and describe(...) uses testing cases
 
     public KozaFitness calculateFitness(EvolutionState state, GPIndividual ind, int threadnum){
+        this.simulatedEvaluations ++;
          RegressionData input = (RegressionData)(this.input);
 
             int hits = 0;
@@ -930,10 +933,16 @@ public class Benchmarks extends GPProblem implements SimpleProblemForm
             
 
              }*/
-            //bestCombination = SARunner.runSA(state, ind, threadnum);
-
+            //System.out.println("Evaluating individual "+ind);
+            this.simulatedEvaluations = 0;
+            //bestCombination = SARunner.runSA(state, ind, threadnum, this);
+            //System.out.println("Updated gains" + bestCombination);
+            //System.out.println("Number of evaluations in the SA "+this.simulatedEvaluations );
+            //((SteadyStateEvolutionState)state).evaluations += this.simulatedEvaluations;
+            //System.out.println();
             TreeManager.setGainsToTree(gptree, bestCombination);
             ind.fitness = calculateFitness(state, ind, threadnum);
+            ind.evaluated = true;
         }
     }
     
