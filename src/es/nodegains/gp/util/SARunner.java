@@ -28,7 +28,7 @@ import java.util.ArrayList;
  * @author pgarcia
  */
 public class SARunner {
-
+    
     public static ArrayList<Double> runSA(EvolutionState state, GPIndividual ind, int threadNum, Benchmarks benchs) {
         
         //int NUMBER_OF_COMPONENTS = 30;
@@ -44,7 +44,7 @@ public class SARunner {
         double INNER_FINAL_TEMP = 1e-4;
         double MUTATION_PROBABILITY = 0.2;
         boolean FORCE_MUTATION = true;
-        double MUTATION_SIGMA = 0.9;
+        double MUTATION_SIGMA = 0.2;
 
         Evaluator<RealVector> benchmarks = new Evaluator<>();
         benchmarks.setArguments(state, ind, threadNum, benchs );

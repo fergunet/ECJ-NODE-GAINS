@@ -114,9 +114,9 @@ public abstract class AbstractSA<T extends ISolution> extends AbstractIndividual
             duration.toSecondsPart(),
             duration.toMillisPart()
         );*/
-        System.err.println(bestSolution);
-        System.err.println();
-        System.err.flush();
+        //System.err.println(bestSolution);
+        //System.err.println();
+        //System.err.flush();
 
         return bestSolution;
     }

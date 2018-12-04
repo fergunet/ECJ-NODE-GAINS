@@ -854,7 +854,9 @@ public class Benchmarks extends GPProblem implements SimpleProblemForm
 
 
 
-
+    public static void main(String args[]){
+        System.out.println("STARTED");
+    }
 ///// Evaluation.  evaluate(...) uses training cases, and describe(...) uses testing cases
 
     public KozaFitness calculateFitness(EvolutionState state, GPIndividual ind, int threadnum){
@@ -935,7 +937,7 @@ public class Benchmarks extends GPProblem implements SimpleProblemForm
              }*/
             //System.out.println("Evaluating individual "+ind);
             this.simulatedEvaluations = 0;
-            //bestCombination = SARunner.runSA(state, ind, threadnum, this);
+            bestCombination = SARunner.runSA(state, ind, threadnum, this);
             //System.out.println("Updated gains" + bestCombination);
             //System.out.println("Number of evaluations in the SA "+this.simulatedEvaluations );
             //((SteadyStateEvolutionState)state).evaluations += this.simulatedEvaluations;
