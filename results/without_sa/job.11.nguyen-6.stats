@@ -1,0 +1,78 @@
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=4.594426925322971 Adjusted=0.17874931844645897 Hits=0
+Tree 0:
+ ([1.0]+ [1.0]x1 [1.0]x1)
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=3.990619571245238 Adjusted=0.20037592241287272 Hits=7
+Tree 0:
+ ([1.0]+ ([1.0]* ([1.0]% [1.0]x1 [1.0]x1)
+     ([1.0]+ [1.0]x1 [1.0]x1)) ([1.0]sin ([1.0]*
+     [1.0]x1 [1.0]x1)))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.9658124687129894 Adjusted=0.3371757353336466 Hits=0
+Tree 0:
+ ([1.0]+ ([1.0]sin ([1.0]- [1.0]x1 ([1.0]rlog
+     ([1.0]cos [1.0]x1)))) ([1.0]sin [1.0]x1))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.9658124687129894 Adjusted=0.3371757353336466 Hits=0
+Tree 0:
+ ([1.0]+ ([1.0]sin ([1.0]- [1.0]x1 ([1.0]rlog
+     ([1.0]cos [1.0]x1)))) ([1.0]sin [1.0]x1))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.5170357104869501 Adjusted=0.6591802639102096 Hits=14
+Tree 0:
+ ([1.0]+ ([1.0]sin ([1.0]+ ([1.0]sin [1.0]x1)
+     ([1.0]* [1.0]x1 [1.0]x1))) [1.0]x1)
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.4131605746237938 Adjusted=0.7076336673673592 Hits=9
+Tree 0:
+ ([1.0]+ ([1.0]+ ([1.0]+ ([1.0]sin [1.0]x1)
+     ([1.0]* [1.0]x1 [1.0]x1)) ([1.0]* ([1.0]+
+     ([1.0]sin [1.0]x1) ([1.0]* [1.0]x1 [1.0]x1))
+     ([1.0]rlog ([1.0]cos [1.0]x1)))) [1.0]x1)
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=20
+Tree 0:
+ ([1.0]+ ([1.0]sin ([1.0]+ [1.0]x1 ([1.0]*
+     [1.0]x1 [1.0]x1))) ([1.0]sin [1.0]x1))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=20
+Tree 0:
+ ([1.0]+ ([1.0]sin ([1.0]+ [1.0]x1 ([1.0]*
+     [1.0]x1 [1.0]x1))) ([1.0]sin [1.0]x1))
+
+
+Performance of Best Individual on Testing Set:
+
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=20

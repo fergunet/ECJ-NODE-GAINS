@@ -1,0 +1,887 @@
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=2.41872131246889 Adjusted=0.29250702487879376 Hits=62
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     [1.0]x2))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=2.41872131246889 Adjusted=0.29250702487879376 Hits=62
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     [1.0]x2))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=2.41872131246889 Adjusted=0.29250702487879376 Hits=62
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     [1.0]x2))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=2.41872131246889 Adjusted=0.29250702487879376 Hits=62
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     [1.0]x2))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=2.41872131246889 Adjusted=0.29250702487879376 Hits=62
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     [1.0]x2))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=2.41872131246889 Adjusted=0.29250702487879376 Hits=62
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     [1.0]x2))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=2.41872131246889 Adjusted=0.29250702487879376 Hits=62
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     [1.0]x2))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=2.41872131246889 Adjusted=0.29250702487879376 Hits=62
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     [1.0]x2))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=2.41872131246889 Adjusted=0.29250702487879376 Hits=62
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     [1.0]x2))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     [1.0]x2) [1.0]x2))
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     [1.0]x2) [1.0]x2))
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 22
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 23
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 24
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 25
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 26
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 27
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 28
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 29
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 30
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 31
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 32
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 33
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 34
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 35
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 36
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 37
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 38
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 39
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 40
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 41
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 42
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 43
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 44
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 45
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 46
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 47
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 48
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 49
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 50
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 51
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 52
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 53
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8597585110529634 Adjusted=0.5377042202290109 Hits=59
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x2
+     ([1.0]sin [1.0]x2)))
+
+Generation: 54
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.5659320769733931 Adjusted=0.6385973023381595 Hits=79
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             [1.0]x2 [1.0]x2)))) [1.0]x2)) ([1.0]* ([1.0]sin
+         ([1.0]* ([1.0]cos ([1.0]sin ([1.0]* [1.0]x2
+             ([1.0]+ ([1.0]cos [1.0]x1) ([1.0]* [1.0]x1
+                 [1.0]x2))))) [1.0]x2)) [1.0]x2))))) [1.0]x2))
+
+Generation: 55
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.5659320769733931 Adjusted=0.6385973023381595 Hits=79
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             [1.0]x2 [1.0]x2)))) [1.0]x2)) ([1.0]* ([1.0]sin
+         ([1.0]* ([1.0]cos ([1.0]sin ([1.0]* [1.0]x2
+             ([1.0]+ ([1.0]cos [1.0]x1) ([1.0]* [1.0]x1
+                 [1.0]x2))))) [1.0]x2)) [1.0]x2))))) [1.0]x2))
+
+Generation: 56
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.32265560128100335 Adjusted=0.7560547122255343 Hits=88
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             [1.0]x2 [1.0]x2)))) [1.0]x2)) ([1.0]* ([1.0]sin
+         ([1.0]* ([1.0]cos ([1.0]cos ([1.0]sin [1.0]x1)))
+             [1.0]x2)) [1.0]x2))))) [1.0]x2))
+
+Generation: 57
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.17724455107027443 Adjusted=0.8494411794820921 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]cos ([1.0]sin [1.0]x1)))
+             [1.0]x2)) ([1.0]* ([1.0]* ([1.0]sin ([1.0]sin
+         ([1.0]cos ([1.0]sin [1.0]x1)))) [1.0]x2)
+         [1.0]x2))))) [1.0]x2))
+
+Generation: 58
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.17724455107027443 Adjusted=0.8494411794820921 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]cos ([1.0]sin [1.0]x1)))
+             [1.0]x2)) ([1.0]* ([1.0]* ([1.0]sin ([1.0]sin
+         ([1.0]cos ([1.0]sin [1.0]x1)))) [1.0]x2)
+         [1.0]x2))))) [1.0]x2))
+
+Generation: 59
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12476698819937355 Adjusted=0.8890730351189347 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]* [1.0]x2
+                 [1.0]x2)))) [1.0]x2)))) [1.0]x2)) ([1.0]*
+         ([1.0]sin ([1.0]* ([1.0]sin ([1.0]cos ([1.0]cos
+             [1.0]x2))) [1.0]x2)) [1.0]x2))))) [1.0]x2))
+
+Generation: 60
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12476698819937355 Adjusted=0.8890730351189347 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]* [1.0]x2
+                 [1.0]x2)))) [1.0]x2)))) [1.0]x2)) ([1.0]*
+         ([1.0]sin ([1.0]* ([1.0]sin ([1.0]cos ([1.0]cos
+             [1.0]x2))) [1.0]x2)) [1.0]x2))))) [1.0]x2))
+
+Generation: 61
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09869483643111293 Adjusted=0.9101708380174944 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]sin ([1.0]cos ([1.0]sin ([1.0]* [1.0]x2
+                 [1.0]x2)))) [1.0]x2)))) [1.0]x2)) ([1.0]*
+         ([1.0]sin ([1.0]sin ([1.0]* ([1.0]sin ([1.0]cos
+             ([1.0]cos [1.0]x2))) [1.0]x2))) [1.0]x2)))))
+     [1.0]x2))
+
+Generation: 62
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09854515032958701 Adjusted=0.9102948565199879 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]sin ([1.0]cos ([1.0]sin ([1.0]sin [1.0]x1))))
+             [1.0]x2)))) [1.0]x2)) ([1.0]* ([1.0]sin ([1.0]sin
+         ([1.0]* ([1.0]sin ([1.0]cos ([1.0]cos [1.0]x2)))
+             [1.0]x2))) [1.0]x2))))) [1.0]x2))
+
+Generation: 63
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0637850607836408 Adjusted=0.9400395219531911 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]* ([1.0]sin ([1.0]cos ([1.0]cos [1.0]x2)))
+                 [1.0]x2) [1.0]x2)))) [1.0]x2)) ([1.0]* ([1.0]sin
+         ([1.0]* ([1.0]cos ([1.0]cos ([1.0]* ([1.0]cos
+             ([1.0]cos ([1.0]cos [1.0]x2))) [1.0]x2)))
+             [1.0]x2)) [1.0]x2))))) [1.0]x2))
+
+Generation: 64
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0637850607836408 Adjusted=0.9400395219531911 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]* ([1.0]sin ([1.0]cos ([1.0]cos [1.0]x2)))
+                 [1.0]x2) [1.0]x2)))) [1.0]x2)) ([1.0]* ([1.0]sin
+         ([1.0]* ([1.0]cos ([1.0]cos ([1.0]* ([1.0]cos
+             ([1.0]cos ([1.0]cos [1.0]x2))) [1.0]x2)))
+             [1.0]x2)) [1.0]x2))))) [1.0]x2))
+
+Generation: 65
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0637850607836408 Adjusted=0.9400395219531911 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]* ([1.0]sin ([1.0]cos ([1.0]cos [1.0]x2)))
+                 [1.0]x2) [1.0]x2)))) [1.0]x2)) ([1.0]* ([1.0]sin
+         ([1.0]* ([1.0]cos ([1.0]cos ([1.0]* ([1.0]cos
+             ([1.0]cos ([1.0]cos [1.0]x2))) [1.0]x2)))
+             [1.0]x2)) [1.0]x2))))) [1.0]x2))
+
+Generation: 66
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0637850607836408 Adjusted=0.9400395219531911 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]* ([1.0]sin ([1.0]cos ([1.0]cos [1.0]x2)))
+                 [1.0]x2) [1.0]x2)))) [1.0]x2)) ([1.0]* ([1.0]sin
+         ([1.0]* ([1.0]cos ([1.0]cos ([1.0]* ([1.0]cos
+             ([1.0]cos ([1.0]cos [1.0]x2))) [1.0]x2)))
+             [1.0]x2)) [1.0]x2))))) [1.0]x2))
+
+Generation: 67
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.062249263822554315 Adjusted=0.9413986284174514 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]* ([1.0]cos ([1.0]cos [1.0]x2)) [1.0]x2)
+             [1.0]x2)))) [1.0]x2)) ([1.0]* ([1.0]sin ([1.0]*
+         ([1.0]cos ([1.0]cos ([1.0]* ([1.0]cos ([1.0]cos
+             ([1.0]cos [1.0]x2))) [1.0]x2))) [1.0]x2))
+         [1.0]x2))))) [1.0]x2))
+
+Generation: 68
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06143574722712265 Adjusted=0.9421201449191658 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]cos [1.0]x2))))
+             [1.0]x2)))) [1.0]x2)) ([1.0]* ([1.0]sin ([1.0]*
+         ([1.0]cos ([1.0]cos ([1.0]* ([1.0]cos ([1.0]cos
+             ([1.0]cos [1.0]x2))) [1.0]x2))) [1.0]x2))
+         [1.0]x2))))) [1.0]x2))
+
+Generation: 69
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06143574722712265 Adjusted=0.9421201449191658 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]cos [1.0]x2))))
+             [1.0]x2)))) [1.0]x2)) ([1.0]* ([1.0]sin ([1.0]*
+         ([1.0]cos ([1.0]cos ([1.0]* ([1.0]cos ([1.0]cos
+             ([1.0]cos [1.0]x2))) [1.0]x2))) [1.0]x2))
+         [1.0]x2))))) [1.0]x2))
+
+Generation: 70
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06143574722712265 Adjusted=0.9421201449191658 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]cos [1.0]x2))))
+             [1.0]x2)))) [1.0]x2)) ([1.0]* ([1.0]sin ([1.0]*
+         ([1.0]cos ([1.0]cos ([1.0]* ([1.0]cos ([1.0]cos
+             ([1.0]cos [1.0]x2))) [1.0]x2))) [1.0]x2))
+         [1.0]x2))))) [1.0]x2))
+
+Generation: 71
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06143574722712265 Adjusted=0.9421201449191658 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]cos [1.0]x2))))
+             [1.0]x2)))) [1.0]x2)) ([1.0]* ([1.0]sin ([1.0]*
+         ([1.0]cos ([1.0]cos ([1.0]* ([1.0]cos ([1.0]cos
+             ([1.0]cos [1.0]x2))) [1.0]x2))) [1.0]x2))
+         [1.0]x2))))) [1.0]x2))
+
+Generation: 72
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06143574722712265 Adjusted=0.9421201449191658 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]cos [1.0]x2))))
+             [1.0]x2)))) [1.0]x2)) ([1.0]* ([1.0]sin ([1.0]*
+         ([1.0]cos ([1.0]cos ([1.0]* ([1.0]cos ([1.0]cos
+             ([1.0]cos [1.0]x2))) [1.0]x2))) [1.0]x2))
+         [1.0]x2))))) [1.0]x2))
+
+Generation: 73
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06143574722712265 Adjusted=0.9421201449191658 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]cos [1.0]x2))))
+             [1.0]x2)))) [1.0]x2)) ([1.0]* ([1.0]sin ([1.0]*
+         ([1.0]cos ([1.0]cos ([1.0]* ([1.0]cos ([1.0]cos
+             ([1.0]cos [1.0]x2))) [1.0]x2))) [1.0]x2))
+         [1.0]x2))))) [1.0]x2))
+
+Generation: 74
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06143574722712265 Adjusted=0.9421201449191658 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]cos [1.0]x2))))
+             [1.0]x2)))) [1.0]x2)) ([1.0]* ([1.0]sin ([1.0]*
+         ([1.0]cos ([1.0]cos ([1.0]* ([1.0]cos ([1.0]cos
+             ([1.0]cos [1.0]x2))) [1.0]x2))) [1.0]x2))
+         [1.0]x2))))) [1.0]x2))
+
+Generation: 75
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.054589232401733634 Adjusted=0.9482364974679179 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]* ([1.0]cos ([1.0]cos [1.0]x2)) [1.0]x2)
+             [1.0]x2)))) [1.0]x2)) ([1.0]* ([1.0]sin ([1.0]*
+         ([1.0]cos ([1.0]cos ([1.0]* ([1.0]cos [1.0]x2)
+             [1.0]x2))) [1.0]x2)) [1.0]x2))))) [1.0]x2))
+
+Generation: 76
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03978460002857298 Adjusted=0.9617376521757681 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]* [1.0]x2 [1.0]x2) [1.0]x2)))) [1.0]x2))
+         ([1.0]* ([1.0]sin ([1.0]* ([1.0]cos ([1.0]cos
+             ([1.0]* ([1.0]cos [1.0]x2) [1.0]x2))) [1.0]x2))
+             [1.0]x2))))) [1.0]x2))
+
+Generation: 77
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03978460002857298 Adjusted=0.9617376521757681 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]* [1.0]x2 [1.0]x2) [1.0]x2)))) [1.0]x2))
+         ([1.0]* ([1.0]sin ([1.0]* ([1.0]cos ([1.0]cos
+             ([1.0]* ([1.0]cos [1.0]x2) [1.0]x2))) [1.0]x2))
+             [1.0]x2))))) [1.0]x2))
+
+Generation: 78
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03978460002857298 Adjusted=0.9617376521757681 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]* [1.0]x2 [1.0]x2) [1.0]x2)))) [1.0]x2))
+         ([1.0]* ([1.0]sin ([1.0]* ([1.0]cos ([1.0]cos
+             ([1.0]* ([1.0]cos [1.0]x2) [1.0]x2))) [1.0]x2))
+             [1.0]x2))))) [1.0]x2))
+
+Generation: 79
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03978460002857298 Adjusted=0.9617376521757681 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]* [1.0]x2 [1.0]x2) [1.0]x2)))) [1.0]x2))
+         ([1.0]* ([1.0]sin ([1.0]* ([1.0]cos ([1.0]cos
+             ([1.0]* ([1.0]cos [1.0]x2) [1.0]x2))) [1.0]x2))
+             [1.0]x2))))) [1.0]x2))
+
+Generation: 80
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03978460002857298 Adjusted=0.9617376521757681 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* ([1.0]sin
+     ([1.0]sin ([1.0]* [1.0]x2 ([1.0]+ ([1.0]cos
+         ([1.0]* ([1.0]sin ([1.0]sin ([1.0]cos ([1.0]*
+             ([1.0]* [1.0]x2 [1.0]x2) [1.0]x2)))) [1.0]x2))
+         ([1.0]* ([1.0]sin ([1.0]* ([1.0]cos ([1.0]cos
+             ([1.0]* ([1.0]cos [1.0]x2) [1.0]x2))) [1.0]x2))
+             [1.0]x2))))) [1.0]x2))
+
+Generation: 80
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]sin ([1.0]*
+     [1.0]x2 [1.0]x2)))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=100
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]sin ([1.0]*
+     [1.0]x2 [1.0]x2)))
+
+
+Performance of Best Individual on Testing Set:
+
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=100

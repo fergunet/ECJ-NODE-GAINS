@@ -1,0 +1,96 @@
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5.751126812385244 Adjusted=0.14812342113992813 Hits=0
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]* [1.0]x1
+     [1.0]x1))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=2.1385556861417423 Adjusted=0.31861789306956984 Hits=0
+Tree 0:
+ ([1.0]+ ([1.0]* [1.0]x1 ([1.0]+ ([1.0]* [1.0]x1
+     ([1.0]+ [1.0]x1 [1.0]x1)) ([1.0]rlog ([1.0]exp
+     [1.0]x1)))) ([1.0]rlog ([1.0]exp [1.0]x1)))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.4765206479772093 Adjusted=0.40379231274198635 Hits=8
+Tree 0:
+ ([1.0]+ ([1.0]* [1.0]x1 ([1.0]* [1.0]x1 ([1.0]+
+     ([1.0]* [1.0]x1 ([1.0]+ [1.0]x1 [1.0]x1))
+     [1.0]x1))) ([1.0]+ ([1.0]* [1.0]x1 [1.0]x1)
+     ([1.0]sin [1.0]x1)))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.1661026142067232 Adjusted=0.46165864601304824 Hits=10
+Tree 0:
+ ([1.0]+ ([1.0]* ([1.0]+ ([1.0]* [1.0]x1 [1.0]x1)
+     ([1.0]sin [1.0]x1)) ([1.0]rlog ([1.0]exp
+     ([1.0]- ([1.0]exp [1.0]x1) ([1.0]% [1.0]x1
+         [1.0]x1))))) ([1.0]+ ([1.0]- [1.0]x1 ([1.0]rlog
+     ([1.0]exp [1.0]x1))) ([1.0]rlog ([1.0]exp
+     [1.0]x1))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8377423095856025 Adjusted=0.5441459310067758 Hits=7
+Tree 0:
+ ([1.0]+ ([1.0]* [1.0]x1 ([1.0]+ ([1.0]* [1.0]x1
+     ([1.0]- ([1.0]exp [1.0]x1) ([1.0]% [1.0]x1
+         [1.0]x1))) ([1.0]- ([1.0]exp [1.0]x1) ([1.0]%
+     [1.0]x1 [1.0]x1)))) ([1.0]rlog ([1.0]exp
+     [1.0]x1)))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8377423095856018 Adjusted=0.544145931006776 Hits=7
+Tree 0:
+ ([1.0]+ ([1.0]* ([1.0]+ ([1.0]* [1.0]x1 [1.0]x1)
+     ([1.0]rlog ([1.0]exp [1.0]x1))) ([1.0]rlog
+     ([1.0]exp ([1.0]- ([1.0]exp [1.0]x1) ([1.0]%
+         [1.0]x1 [1.0]x1))))) ([1.0]+ ([1.0]- [1.0]x1
+     [1.0]x1) ([1.0]rlog ([1.0]exp ([1.0]rlog
+     ([1.0]exp [1.0]x1))))))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=20
+Tree 0:
+ ([1.0]+ ([1.0]* [1.0]x1 ([1.0]+ ([1.0]* [1.0]x1
+     ([1.0]+ ([1.0]* [1.0]x1 ([1.0]+ ([1.0]* [1.0]x1
+         [1.0]x1) ([1.0]rlog ([1.0]exp [1.0]x1))))
+         [1.0]x1)) [1.0]x1)) ([1.0]rlog ([1.0]exp
+     [1.0]x1)))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=20
+Tree 0:
+ ([1.0]+ ([1.0]* [1.0]x1 ([1.0]+ ([1.0]* [1.0]x1
+     ([1.0]+ ([1.0]* [1.0]x1 ([1.0]+ ([1.0]* [1.0]x1
+         [1.0]x1) ([1.0]rlog ([1.0]exp [1.0]x1))))
+         [1.0]x1)) [1.0]x1)) ([1.0]rlog ([1.0]exp
+     [1.0]x1)))
+
+
+Performance of Best Individual on Testing Set:
+
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=20

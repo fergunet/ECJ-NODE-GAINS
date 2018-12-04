@@ -1,0 +1,83 @@
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=9.835547583546028 Adjusted=0.09228882917911023 Hits=0
+Tree 0:
+ ([1.0]+ [1.0]x1 [1.0]x1)
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=3.7450721530744326 Adjusted=0.21074495133906002 Hits=0
+Tree 0:
+ ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]+ ([1.0]sin
+     [1.0]x1) ([1.0]* [1.0]x1 [1.0]x1)))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.695995882865418 Adjusted=0.5896240728547528 Hits=8
+Tree 0:
+ ([1.0]- ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]+
+     ([1.0]% [1.0]x1 ([1.0]cos [1.0]x1)) ([1.0]*
+     [1.0]x1 [1.0]x1))) ([1.0]sin ([1.0]* ([1.0]cos
+     [1.0]x1) [1.0]x1)))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.695995882865418 Adjusted=0.5896240728547528 Hits=8
+Tree 0:
+ ([1.0]- ([1.0]+ ([1.0]sin [1.0]x1) ([1.0]+
+     ([1.0]% [1.0]x1 ([1.0]cos [1.0]x1)) ([1.0]*
+     [1.0]x1 [1.0]x1))) ([1.0]sin ([1.0]* ([1.0]cos
+     [1.0]x1) [1.0]x1)))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.6186640714150867 Adjusted=0.6177934122710025 Hits=8
+Tree 0:
+ ([1.0]+ ([1.0]+ ([1.0]sin ([1.0]* ([1.0]*
+     [1.0]x1 [1.0]x1) [1.0]x1)) [1.0]x1) ([1.0]%
+     ([1.0]* [1.0]x1 [1.0]x1) ([1.0]% [1.0]x1
+     [1.0]x1)))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.6186640714150867 Adjusted=0.6177934122710025 Hits=8
+Tree 0:
+ ([1.0]+ ([1.0]+ ([1.0]sin ([1.0]* ([1.0]*
+     [1.0]x1 [1.0]x1) [1.0]x1)) [1.0]x1) ([1.0]%
+     ([1.0]* [1.0]x1 [1.0]x1) ([1.0]% [1.0]x1
+     [1.0]x1)))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=20
+Tree 0:
+ ([1.0]+ [1.0]x1 ([1.0]+ ([1.0]* [1.0]x1 [1.0]x1)
+     ([1.0]* ([1.0]* [1.0]x1 [1.0]x1) [1.0]x1)))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=20
+Tree 0:
+ ([1.0]+ [1.0]x1 ([1.0]+ ([1.0]* [1.0]x1 [1.0]x1)
+     ([1.0]* ([1.0]* [1.0]x1 [1.0]x1) [1.0]x1)))
+
+
+Performance of Best Individual on Testing Set:
+
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=20

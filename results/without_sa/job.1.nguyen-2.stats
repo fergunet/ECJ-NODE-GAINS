@@ -1,0 +1,141 @@
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10.74858260814419 Adjusted=0.08511665052316982 Hits=2
+Tree 0:
+ ([1.0]- [1.0]x1 ([1.0]rlog ([1.0]sin ([1.0]rlog
+     [1.0]x1))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=4.765738337041325 Adjusted=0.173438325075492 Hits=0
+Tree 0:
+ ([1.0]* ([1.0]sin ([1.0]* ([1.0]sin ([1.0]cos
+     [1.0]x1)) ([1.0]+ [1.0]x1 ([1.0]* [1.0]x1
+     [1.0]x1)))) ([1.0]+ ([1.0]+ [1.0]x1 [1.0]x1)
+     ([1.0]% [1.0]x1 [1.0]x1)))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=2.568105162973197 Adjusted=0.2802607979095351 Hits=6
+Tree 0:
+ ([1.0]* ([1.0]* ([1.0]sin ([1.0]% [1.0]x1
+     [1.0]x1)) ([1.0]+ [1.0]x1 ([1.0]* [1.0]x1
+     [1.0]x1))) ([1.0]+ [1.0]x1 ([1.0]% [1.0]x1
+     [1.0]x1)))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=2.568105162973197 Adjusted=0.2802607979095351 Hits=6
+Tree 0:
+ ([1.0]* ([1.0]* ([1.0]sin ([1.0]% [1.0]x1
+     [1.0]x1)) ([1.0]+ [1.0]x1 ([1.0]* [1.0]x1
+     [1.0]x1))) ([1.0]+ [1.0]x1 ([1.0]% [1.0]x1
+     [1.0]x1)))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=2.568105162973197 Adjusted=0.2802607979095351 Hits=6
+Tree 0:
+ ([1.0]* ([1.0]* ([1.0]sin ([1.0]% [1.0]x1
+     [1.0]x1)) ([1.0]+ [1.0]x1 ([1.0]* [1.0]x1
+     [1.0]x1))) ([1.0]+ [1.0]x1 ([1.0]% [1.0]x1
+     [1.0]x1)))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=2.0088663903680724 Adjusted=0.3323510818563368 Hits=0
+Tree 0:
+ ([1.0]* ([1.0]* ([1.0]sin ([1.0]% [1.0]x1
+     [1.0]x1)) ([1.0]+ [1.0]x1 ([1.0]* ([1.0]sin
+     ([1.0]* [1.0]x1 [1.0]x1)) ([1.0]+ [1.0]x1
+     ([1.0]* [1.0]x1 [1.0]x1))))) ([1.0]+ [1.0]x1
+     ([1.0]% [1.0]x1 [1.0]x1)))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=2.0088663903680724 Adjusted=0.3323510818563368 Hits=0
+Tree 0:
+ ([1.0]* ([1.0]* ([1.0]sin ([1.0]% [1.0]x1
+     [1.0]x1)) ([1.0]+ [1.0]x1 ([1.0]* ([1.0]sin
+     ([1.0]* [1.0]x1 [1.0]x1)) ([1.0]+ [1.0]x1
+     ([1.0]* [1.0]x1 [1.0]x1))))) ([1.0]+ [1.0]x1
+     ([1.0]% [1.0]x1 [1.0]x1)))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0585614450393501 Adjusted=0.4857761241034438 Hits=6
+Tree 0:
+ ([1.0]* ([1.0]+ [1.0]x1 ([1.0]* ([1.0]sin
+     ([1.0]+ ([1.0]% [1.0]x1 ([1.0]% [1.0]x1 ([1.0]sin
+         ([1.0]% ([1.0]+ [1.0]x1 ([1.0]* ([1.0]cos
+             [1.0]x1) ([1.0]+ [1.0]x1 ([1.0]* ([1.0]sin
+             ([1.0]+ [1.0]x1 ([1.0]* [1.0]x1 [1.0]x1)))
+             ([1.0]+ [1.0]x1 ([1.0]* [1.0]x1 [1.0]x1))))))
+             [1.0]x1)))) [1.0]x1)) ([1.0]* ([1.0]* [1.0]x1
+     [1.0]x1) [1.0]x1))) ([1.0]+ [1.0]x1 ([1.0]%
+     [1.0]x1 [1.0]x1)))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.3825849290060209 Adjusted=0.7232828732763115 Hits=9
+Tree 0:
+ ([1.0]* ([1.0]+ [1.0]x1 ([1.0]* ([1.0]sin
+     ([1.0]+ ([1.0]% [1.0]x1 ([1.0]+ [1.0]x1 ([1.0]*
+         [1.0]x1 [1.0]x1))) [1.0]x1)) ([1.0]* ([1.0]*
+     [1.0]x1 [1.0]x1) [1.0]x1))) ([1.0]+ [1.0]x1
+     ([1.0]% [1.0]x1 [1.0]x1)))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.3825849290060209 Adjusted=0.7232828732763115 Hits=9
+Tree 0:
+ ([1.0]* ([1.0]+ [1.0]x1 ([1.0]* ([1.0]sin
+     ([1.0]+ ([1.0]% [1.0]x1 ([1.0]+ [1.0]x1 ([1.0]*
+         [1.0]x1 [1.0]x1))) [1.0]x1)) ([1.0]* ([1.0]*
+     [1.0]x1 [1.0]x1) [1.0]x1))) ([1.0]+ [1.0]x1
+     ([1.0]% [1.0]x1 [1.0]x1)))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=20
+Tree 0:
+ ([1.0]* ([1.0]+ [1.0]x1 ([1.0]* ([1.0]* [1.0]x1
+     [1.0]x1) [1.0]x1)) ([1.0]+ [1.0]x1 ([1.0]%
+     [1.0]x1 [1.0]x1)))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=20
+Tree 0:
+ ([1.0]* ([1.0]+ [1.0]x1 ([1.0]* ([1.0]* [1.0]x1
+     [1.0]x1) [1.0]x1)) ([1.0]+ [1.0]x1 ([1.0]%
+     [1.0]x1 [1.0]x1)))
+
+
+Performance of Best Individual on Testing Set:
+
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=20

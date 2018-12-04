@@ -1,0 +1,50 @@
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.9320307053401138 Adjusted=0.34106054830145466 Hits=5
+Tree 0:
+ ([1.0]* ([1.0]exp [1.0]x1) [1.0]x1)
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.9320307053401138 Adjusted=0.34106054830145466 Hits=5
+Tree 0:
+ ([1.0]* ([1.0]% [1.0]x1 [1.0]x1) ([1.0]*
+     ([1.0]exp [1.0]x1) [1.0]x1))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.9320307053401138 Adjusted=0.34106054830145466 Hits=5
+Tree 0:
+ ([1.0]* ([1.0]% [1.0]x1 [1.0]x1) ([1.0]*
+     ([1.0]exp [1.0]x1) [1.0]x1))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=20
+Tree 0:
+ ([1.0]+ ([1.0]* ([1.0]+ ([1.0]rlog ([1.0]exp
+     [1.0]x1)) ([1.0]* [1.0]x1 [1.0]x1)) [1.0]x1)
+     [1.0]x1)
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=20
+Tree 0:
+ ([1.0]+ ([1.0]* ([1.0]+ ([1.0]rlog ([1.0]exp
+     [1.0]x1)) ([1.0]* [1.0]x1 [1.0]x1)) [1.0]x1)
+     [1.0]x1)
+
+
+Performance of Best Individual on Testing Set:
+
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=20
