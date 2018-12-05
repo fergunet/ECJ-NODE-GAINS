@@ -68,7 +68,7 @@ problems = ["koza-2", "koza-3"]
 
 
 def obtain_df_from_dir(directory):
-	df = pd.DataFrame(columns=('JOB','PROBLEM','TOTAL_TIME', 'EVAL_TIME','BEST','AVERAGE_END','NODES_BEST'))
+	df = pd.DataFrame(columns=('JOB','PROBLEM','GENS','TOTAL_TIME', 'EVAL_TIME','BEST','AVERAGE_END','NODES_BEST'))
 	for p in problems:
 		#print p
 		for i in range(0,28):
@@ -80,7 +80,8 @@ def obtain_df_from_dir(directory):
 				time = 0
 				best = 0
 				eval_time = 0
-				average_best_gen = 0
+				average_gen = 0
+				gens = 0.0
 				size_best = 0
 				for row in reader:
 					time = float(row[0]) + time
@@ -88,11 +89,12 @@ def obtain_df_from_dir(directory):
 					size_best = float(row[4])
 					average_gen = float(row[5])
 					best = float(row[7])
-				df.loc[len(df)] = [i, p, time, eval_time, best, average_gen, size_best]
+					gens = gens + 1
+				df.loc[len(df)] = [i, p, gens, time, eval_time, best, average_gen, size_best]
 	return df
 
 def print_results(dataframe):
-	#print(dataframe)
+	print(dataframe)
 	print(dataframe.groupby('PROBLEM').mean())
 
 df_sa = obtain_df_from_dir(base_directory+"/sa")
