@@ -1,0 +1,64 @@
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=163.63033475870407 Adjusted=0.006074214703296834 Hits=56
+Tree 0:
+ ([1.0]+ ([0.9923212341404355]exp ([0.0]sin
+     [0.7718420916201705]x2)) ([0.9857954923575923]cos
+     ([0.7589332835834872]rlog [0.28455287326162526]x1)))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=67.88185319941039 Adjusted=0.014517611730117619 Hits=36
+Tree 0:
+ ([1.0]+ ([0.33156455123737477]rlog ([1.0]%
+     [0.5497678016840825]x2 [0.019924114915057703]x1))
+     ([1.0]cos ([0.9009247654365606]rlog [0.17176513647312622]x1)))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=67.88185319941039 Adjusted=0.014517611730117619 Hits=36
+Tree 0:
+ ([1.0]+ ([0.33156455123737477]rlog ([1.0]%
+     [0.5497678016840825]x2 [0.019924114915057703]x1))
+     ([1.0]cos ([0.9009247654365606]rlog [0.17176513647312622]x1)))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=67.88185319941039 Adjusted=0.014517611730117619 Hits=36
+Tree 0:
+ ([1.0]+ ([0.33156455123737477]rlog ([1.0]%
+     [0.5497678016840825]x2 [0.019924114915057703]x1))
+     ([1.0]cos ([0.9009247654365606]rlog [0.17176513647312622]x1)))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=67.88185319941039 Adjusted=0.014517611730117619 Hits=36
+Tree 0:
+ ([1.0]+ ([0.33156455123737477]rlog ([1.0]%
+     [0.5497678016840825]x2 [0.019924114915057703]x1))
+     ([1.0]cos ([0.9009247654365606]rlog [0.17176513647312622]x1)))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=67.88185319941039 Adjusted=0.014517611730117619 Hits=36
+Tree 0:
+ ([1.0]+ ([0.33156455123737477]rlog ([1.0]%
+     [0.5497678016840825]x2 [0.019924114915057703]x1))
+     ([1.0]cos ([0.9009247654365606]rlog [0.17176513647312622]x1)))
+
+
+Performance of Best Individual on Testing Set:
+
+Fitness: Standardized=67.88185319941039 Adjusted=0.014517611730117619 Hits=36

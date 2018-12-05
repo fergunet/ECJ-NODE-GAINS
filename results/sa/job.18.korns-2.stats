@@ -1,0 +1,74 @@
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=247203.51769680937 Adjusted=4.045233514811719E-6 Hits=17
+Tree 0:
+ ([0.9756531649547089]cos ([0.95371315790199]tan
+     ([0.8665854134967901]* ([0.83506907308536]tanh
+         [0.30413340188861393]x5) ([0.7169843813142796]tan
+         -4.6978721185693415E65))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=247164.1869003708 Adjusted=4.045877223005064E-6 Hits=10
+Tree 0:
+ ([0.8579346013858044]- ([0.9345549067751391]tanh
+     ([1.0]cube ([0.8603535805619413]cube ([0.460597766811643]tan
+         [0.47992070688136274]x4)))) ([0.20458029422376062]tan
+     -4.6978721185693415E65))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=247164.1869003708 Adjusted=4.045877223005064E-6 Hits=10
+Tree 0:
+ ([0.8579346013858044]- ([0.9345549067751391]tanh
+     ([1.0]cube ([0.8603535805619413]cube ([0.460597766811643]tan
+         [0.47992070688136274]x4)))) ([0.20458029422376062]tan
+     -4.6978721185693415E65))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=247133.71230489863 Adjusted=4.046376126904688E-6 Hits=17
+Tree 0:
+ ([0.23817629202091903]+ ([0.8497398384938757]cube
+     ([0.9599439192486795]cube ([0.8563904883497008]+
+         ([0.21653686607623127]tan ([0.8662006975899434]tan
+             ([0.9460327020746029]cos ([0.4478417545688699]cube
+                 ([0.8877514981453614]tan [0.2689913338530272]x5)))))
+         ([1.0]tanh ([0.8396205623091549]rlog ([0.8410271372177128]+
+             [0.7409849586548468]x4 [0.7333933442229869]x2))))))
+     ([0.18623910376966743]cube ([0.005023883525554699]rlog
+         ([0.8292100635233584]rlog ([0.6918266325424027]tan
+             [0.8482759086650391]x1)))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=246834.15011267926 Adjusted=4.051286859037313E-6 Hits=7
+Tree 0:
+ ([0.04905303900492579]tan ([0.7273835819388454]*
+     ([0.9737415635569122]tanh [0.8197377705635517]x5)
+     ([1.0]tan -4.6978721185693415E65)))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=246834.15011267926 Adjusted=4.051286859037313E-6 Hits=7
+Tree 0:
+ ([0.04905303900492579]tan ([0.7273835819388454]*
+     ([0.9737415635569122]tanh [0.8197377705635517]x5)
+     ([1.0]tan -4.6978721185693415E65)))
+
+
+Performance of Best Individual on Testing Set:
+
+Fitness: Standardized=486612.080503368 Adjusted=2.05502079591771E-6 Hits=14

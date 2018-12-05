@@ -1,0 +1,75 @@
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=169.67389925222946 Adjusted=0.005859126699403262 Hits=36
+Tree 0:
+ ([1.0]- ([1.0]rlog [0.9943378141309875]x1)
+     ([0.625064356065858]rlog ([0.6528905040067028]-
+         [0.6763668501301467]x1 [0.8235122114416469]x1)))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=147.0363822942084 Adjusted=0.006755096176375034 Hits=44
+Tree 0:
+ ([0.8378105031277836]exp ([0.853958925834848]sin
+     ([1.0]exp ([0.5394192392489853]rlog ([0.8728589245684285]*
+         ([1.0]sin [0.5369528023987424]x2) [1.0]x2)))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=69.43804649178078 Adjusted=0.014196872994152204 Hits=56
+Tree 0:
+ ([0.9680682287686344]exp ([0.739750313478758]cos
+     ([0.7518668114459524]- ([0.1024159106399922]exp
+         ([0.22132749923287173]cos [0.0]x1)) ([0.688202383998077]rlog
+         ([0.5475105384181652]* ([1.0]sin [0.13234815136773057]x2)
+             [1.0]x1)))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=63.12796403440415 Adjusted=0.015593821120899888 Hits=184
+Tree 0:
+ ([1.0]exp ([0.6923072412791427]cos ([0.6467899630718323]-
+     ([0.19570076754493698]cos [0.5583375129652345]x1)
+     ([1.0]- ([0.8165232078083666]exp ([0.0]sin
+         [0.278389197811196]x1)) ([0.9545207423584604]rlog
+         ([1.0]* ([0.742254900513569]sin [0.267059507722537]x2)
+             [1.0]x1))))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=63.12796403440415 Adjusted=0.015593821120899888 Hits=184
+Tree 0:
+ ([1.0]exp ([0.6923072412791427]cos ([0.6467899630718323]-
+     ([0.19570076754493698]cos [0.5583375129652345]x1)
+     ([1.0]- ([0.8165232078083666]exp ([0.0]sin
+         [0.278389197811196]x1)) ([0.9545207423584604]rlog
+         ([1.0]* ([0.742254900513569]sin [0.267059507722537]x2)
+             [1.0]x1))))))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=63.12796403440415 Adjusted=0.015593821120899888 Hits=184
+Tree 0:
+ ([1.0]exp ([0.6923072412791427]cos ([0.6467899630718323]-
+     ([0.19570076754493698]cos [0.5583375129652345]x1)
+     ([1.0]- ([0.8165232078083666]exp ([0.0]sin
+         [0.278389197811196]x1)) ([0.9545207423584604]rlog
+         ([1.0]* ([0.742254900513569]sin [0.267059507722537]x2)
+             [1.0]x1))))))
+
+
+Performance of Best Individual on Testing Set:
+
+Fitness: Standardized=63.12796403440415 Adjusted=0.015593821120899888 Hits=184

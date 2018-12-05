@@ -1,0 +1,68 @@
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.5719228998023932 Adjusted=0.6361635167511779 Hits=8
+Tree 0:
+ ([1.0]+ ([0.9083679178098246]* [0.6591004510616852]x1
+     [0.827786470469163]x1) ([1.0]sin [1.0]x1))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10258577173513089 Adjusted=0.9069589193286138 Hits=18
+Tree 0:
+ ([0.9819628362534653]+ ([0.7593876886253932]exp
+     ([0.8578517483545318]rlog ([0.9405773686645242]*
+         [1.0]x1 [0.762733077242099]x1))) ([0.9899109431444703]sin
+     [1.0]x1))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10258577173513089 Adjusted=0.9069589193286138 Hits=18
+Tree 0:
+ ([0.9819628362534653]+ ([0.7593876886253932]exp
+     ([0.8578517483545318]rlog ([0.9405773686645242]*
+         [1.0]x1 [0.762733077242099]x1))) ([0.9899109431444703]sin
+     [1.0]x1))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10258577173513089 Adjusted=0.9069589193286138 Hits=18
+Tree 0:
+ ([0.9819628362534653]+ ([0.7593876886253932]exp
+     ([0.8578517483545318]rlog ([0.9405773686645242]*
+         [1.0]x1 [0.762733077242099]x1))) ([0.9899109431444703]sin
+     [1.0]x1))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10258577173513089 Adjusted=0.9069589193286138 Hits=18
+Tree 0:
+ ([0.9819628362534653]+ ([0.7593876886253932]exp
+     ([0.8578517483545318]rlog ([0.9405773686645242]*
+         [1.0]x1 [0.762733077242099]x1))) ([0.9899109431444703]sin
+     [1.0]x1))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10258577173513089 Adjusted=0.9069589193286138 Hits=18
+Tree 0:
+ ([0.9819628362534653]+ ([0.7593876886253932]exp
+     ([0.8578517483545318]rlog ([0.9405773686645242]*
+         [1.0]x1 [0.762733077242099]x1))) ([0.9899109431444703]sin
+     [1.0]x1))
+
+
+Performance of Best Individual on Testing Set:
+
+Fitness: Standardized=0.10258577173513089 Adjusted=0.9069589193286138 Hits=18

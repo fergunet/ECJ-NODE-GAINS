@@ -1,0 +1,68 @@
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.47347142932304476 Adjusted=0.6786694197792684 Hits=5
+Tree 0:
+ ([0.291831797939833]* ([0.6998405562483498]cos
+     ([1.0]rlog ([0.7370160452446348]cos ([0.6908970901442997]rlog
+         [0.058675501686373484]x1)))) ([1.0]cos ([0.8906920971132578]-
+     ([0.6461702664319818]rlog ([0.3902126533875154]+
+         [0.7389683135148222]x1 [0.6755833852450329]x1))
+     ([0.0]+ ([1.0]% [0.2915285413164189]x1 [0.23554961891771084]x1)
+         ([0.0]- [0.4455504157160054]x1 [0.5327036157266619]x1)))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2046232575274665 Adjusted=0.8301350598630619 Hits=14
+Tree 0:
+ ([0.1398153954913643]cos ([0.449742101986305]%
+     ([0.803556399330734]sin ([1.0]- [0.3919684640573818]x1
+         [0.0]x1)) ([0.01549009337244947]sin [0.06866432636609786]x1)))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2046232575274665 Adjusted=0.8301350598630619 Hits=14
+Tree 0:
+ ([0.1398153954913643]cos ([0.449742101986305]%
+     ([0.803556399330734]sin ([1.0]- [0.3919684640573818]x1
+         [0.0]x1)) ([0.01549009337244947]sin [0.06866432636609786]x1)))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2046232575274665 Adjusted=0.8301350598630619 Hits=14
+Tree 0:
+ ([0.1398153954913643]cos ([0.449742101986305]%
+     ([0.803556399330734]sin ([1.0]- [0.3919684640573818]x1
+         [0.0]x1)) ([0.01549009337244947]sin [0.06866432636609786]x1)))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2046232575274665 Adjusted=0.8301350598630619 Hits=14
+Tree 0:
+ ([0.1398153954913643]cos ([0.449742101986305]%
+     ([0.803556399330734]sin ([1.0]- [0.3919684640573818]x1
+         [0.0]x1)) ([0.01549009337244947]sin [0.06866432636609786]x1)))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2046232575274665 Adjusted=0.8301350598630619 Hits=14
+Tree 0:
+ ([0.1398153954913643]cos ([0.449742101986305]%
+     ([0.803556399330734]sin ([1.0]- [0.3919684640573818]x1
+         [0.0]x1)) ([0.01549009337244947]sin [0.06866432636609786]x1)))
+
+
+Performance of Best Individual on Testing Set:
+
+Fitness: Standardized=0.2046232575274665 Adjusted=0.8301350598630619 Hits=14

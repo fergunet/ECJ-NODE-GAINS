@@ -1,0 +1,70 @@
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.6410387304799745 Adjusted=0.37863890008847506 Hits=2
+Tree 0:
+ ([0.6686886839002227]% [0.21568126000589505]x1
+     ([0.20442325875135417]- ([0.5371730970682594]%
+         [1.0]x1 [1.0]x1) ([0.24412304669819856]+
+         [1.0]x1 [0.6610799418574812]x1)))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.4513703557966016 Adjusted=0.4079350954193285 Hits=2
+Tree 0:
+ ([0.5140668546294752]% [0.3163180097611479]x1
+     ([0.30421184649756355]- ([0.9959949140711042]%
+         [0.21548276153287138]x1 [0.0]x1) ([0.4954791127296291]+
+         [0.6879612819372161]x1 ([0.5170822080244053]exp
+         ([0.7761976502939006]% [1.0]x1 ([0.0]- [1.0]x1
+             ([0.48173066157474126]- ([0.21796249670537765]+
+                 [0.0]x1 [0.26732287781732994]x1) ([0.0]exp
+                 [0.7330593770798515]x1))))))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.2437484688224567 Adjusted=0.44568275539584473 Hits=4
+Tree 0:
+ ([0.41539120087872666]+ ([1.0]* ([0.839271569003494]exp
+     ([0.9878999169947297]exp [1.0]x1)) [1.0]x1)
+     [0.48223451912917403]x1)
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.2437484688224567 Adjusted=0.44568275539584473 Hits=4
+Tree 0:
+ ([0.41539120087872666]+ ([1.0]* ([0.839271569003494]exp
+     ([0.9878999169947297]exp [1.0]x1)) [1.0]x1)
+     [0.48223451912917403]x1)
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.2437484688224567 Adjusted=0.44568275539584473 Hits=4
+Tree 0:
+ ([0.41539120087872666]+ ([1.0]* ([0.839271569003494]exp
+     ([0.9878999169947297]exp [1.0]x1)) [1.0]x1)
+     [0.48223451912917403]x1)
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.2437484688224567 Adjusted=0.44568275539584473 Hits=4
+Tree 0:
+ ([0.41539120087872666]+ ([1.0]* ([0.839271569003494]exp
+     ([0.9878999169947297]exp [1.0]x1)) [1.0]x1)
+     [0.48223451912917403]x1)
+
+
+Performance of Best Individual on Testing Set:
+
+Fitness: Standardized=1.2437484688224567 Adjusted=0.44568275539584473 Hits=4

@@ -1,0 +1,71 @@
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7636383913846425 Adjusted=0.5670096573566276 Hits=3
+Tree 0:
+ ([1.0]* [0.6924466065373883]x1 ([1.0]+ ([0.7683917909679363]exp
+     ([0.0]sin [0.4603193042805854]x1)) ([0.8762748041924663]exp
+     ([0.7633288979938585]+ [1.0]x1 [0.8612500629885564]x1))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7398556582640072 Adjusted=0.574760322932639 Hits=4
+Tree 0:
+ ([1.0]* [0.8838590307955112]x1 ([0.4836477948548602]+
+     ([1.0]exp ([0.9457177947161737]exp ([0.9389820083642235]sin
+         [0.889951511842584]x1))) ([0.7087152778341035]*
+     [0.2717819190198481]x1 ([0.0]exp ([1.0]exp
+     [1.0]x1)))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2509838122560272 Adjusted=0.7993708553243368 Hits=11
+Tree 0:
+ ([1.0]* [1.0]x1 ([1.0]+ ([1.0]exp ([1.0]sin
+     [1.0]x1)) ([0.7855059521775435]* ([0.5849802589832492]*
+     [0.9803250157036051]x1 [0.6567878228094325]x1)
+     ([1.0]exp ([0.6698763610636493]exp [0.0]x1)))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2509297344662422 Adjusted=0.7994054121886301 Hits=13
+Tree 0:
+ ([1.0]* [1.0]x1 ([1.0]+ ([1.0]exp ([1.0]sin
+     [1.0]x1)) ([1.0]* [0.8562597141692605]x1
+     [0.6681641500344286]x1)))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.18657348383441255 Adjusted=0.8427628070437742 Hits=14
+Tree 0:
+ ([1.0]* [1.0]x1 ([0.9809603821428241]+ ([1.0]exp
+     [0.722780357289537]x1) ([0.9027202678039894]-
+     ([0.933458857506833]* [1.0]x1 [0.9009232302432408]x1)
+     ([0.7065836758287277]- [0.2340747863227741]x1
+         [0.6544811348458669]x1))))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.18657348383441255 Adjusted=0.8427628070437742 Hits=14
+Tree 0:
+ ([1.0]* [1.0]x1 ([0.9809603821428241]+ ([1.0]exp
+     [0.722780357289537]x1) ([0.9027202678039894]-
+     ([0.933458857506833]* [1.0]x1 [0.9009232302432408]x1)
+     ([0.7065836758287277]- [0.2340747863227741]x1
+         [0.6544811348458669]x1))))
+
+
+Performance of Best Individual on Testing Set:
+
+Fitness: Standardized=0.18657348383441255 Adjusted=0.8427628070437742 Hits=14

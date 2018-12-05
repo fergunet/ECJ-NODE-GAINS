@@ -1,0 +1,74 @@
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.24054715437844298 Adjusted=0.8060959202320968 Hits=12
+Tree 0:
+ ([0.22311441415766553]rlog ([0.19272513265877284]-
+     ([0.01641439977093917]rlog [0.44949004319896113]x1)
+     ([0.8634719183392672]* [0.6847386132748159]x1
+         [0.9157885027945093]x1)))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.24054715437844298 Adjusted=0.8060959202320968 Hits=12
+Tree 0:
+ ([0.22311441415766553]rlog ([0.19272513265877284]-
+     ([0.01641439977093917]rlog [0.44949004319896113]x1)
+     ([0.8634719183392672]* [0.6847386132748159]x1
+         [0.9157885027945093]x1)))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.24054715437844298 Adjusted=0.8060959202320968 Hits=12
+Tree 0:
+ ([0.22311441415766553]rlog ([0.19272513265877284]-
+     ([0.01641439977093917]rlog [0.44949004319896113]x1)
+     ([0.8634719183392672]* [0.6847386132748159]x1
+         [0.9157885027945093]x1)))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2135915630695991 Adjusted=0.824000454873507 Hits=13
+Tree 0:
+ ([1.0]sin ([0.5588667440119182]rlog ([0.2699008794470968]sin
+     ([0.08289873626854788]- ([0.8692589341407028]rlog
+         [0.8361930457010059]x1) ([0.3344844010494311]*
+         [0.726741886411776]x1 [1.0]x1)))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.20769841996836663 Adjusted=0.8280212869916589 Hits=12
+Tree 0:
+ ([1.0]sin ([1.0]rlog ([0.48695098433904693]sin
+     ([0.3979359871563463]- ([0.16120157151343792]*
+         [1.0]x1 [0.18826586473363752]x1) ([0.302084571582855]rlog
+         ([0.43348851770458185]- [0.4942569427041492]x1
+             ([0.8723035168609575]sin ([0.2999849966932413]-
+                 [0.0]x1 [1.0]x1))))))))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.20769841996836663 Adjusted=0.8280212869916589 Hits=12
+Tree 0:
+ ([1.0]sin ([1.0]rlog ([0.48695098433904693]sin
+     ([0.3979359871563463]- ([0.16120157151343792]*
+         [1.0]x1 [0.18826586473363752]x1) ([0.302084571582855]rlog
+         ([0.43348851770458185]- [0.4942569427041492]x1
+             ([0.8723035168609575]sin ([0.2999849966932413]-
+                 [0.0]x1 [1.0]x1))))))))
+
+
+Performance of Best Individual on Testing Set:
+
+Fitness: Standardized=0.20769841996836663 Adjusted=0.8280212869916589 Hits=12

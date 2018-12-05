@@ -1,0 +1,66 @@
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=6.382395209213437 Adjusted=0.13545739176249624 Hits=15
+Tree 0:
+ ([1.0]+ ([1.0]% ([1.0]- [0.7056033623147787]x1
+     [0.5530514251930291]x1) ([0.08549617386820581]exp
+     [0.5033531646603664]x2)) ([0.9586904885685685]-
+     ([0.6185470154684226]sin [0.3807280381081643]x2)
+     [0.217929268276631]x2))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=3.2246215588996767 Adjusted=0.2367075928714559 Hits=24
+Tree 0:
+ ([0.7567271840696547]+ ([0.7802196814649626]%
+     ([0.87826918914124]sin [1.0]x1) ([0.26217411134963586]exp
+     [0.6168577250965404]x2)) [0.24751892409453427]x1)
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=3.2246215588996767 Adjusted=0.2367075928714559 Hits=24
+Tree 0:
+ ([0.7567271840696547]+ ([0.7802196814649626]%
+     ([0.87826918914124]sin [1.0]x1) ([0.26217411134963586]exp
+     [0.6168577250965404]x2)) [0.24751892409453427]x1)
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=3.2246215588996767 Adjusted=0.2367075928714559 Hits=24
+Tree 0:
+ ([0.7567271840696547]+ ([0.7802196814649626]%
+     ([0.87826918914124]sin [1.0]x1) ([0.26217411134963586]exp
+     [0.6168577250965404]x2)) [0.24751892409453427]x1)
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=3.2246215588996767 Adjusted=0.2367075928714559 Hits=24
+Tree 0:
+ ([0.7567271840696547]+ ([0.7802196814649626]%
+     ([0.87826918914124]sin [1.0]x1) ([0.26217411134963586]exp
+     [0.6168577250965404]x2)) [0.24751892409453427]x1)
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=3.2246215588996767 Adjusted=0.2367075928714559 Hits=24
+Tree 0:
+ ([0.7567271840696547]+ ([0.7802196814649626]%
+     ([0.87826918914124]sin [1.0]x1) ([0.26217411134963586]exp
+     [0.6168577250965404]x2)) [0.24751892409453427]x1)
+
+
+Performance of Best Individual on Testing Set:
+
+Fitness: Standardized=3.2246215588996767 Adjusted=0.2367075928714559 Hits=24

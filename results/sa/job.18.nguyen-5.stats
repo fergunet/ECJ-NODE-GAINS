@@ -1,0 +1,64 @@
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.1575825110313679 Adjusted=0.8638693056178197 Hits=14
+Tree 0:
+ ([1.0]rlog ([0.6749544644386274]cos ([1.0]*
+     ([0.9903194690957381]cos [0.8654282871467851]x1)
+     ([1.0]cos [0.7683323992504603]x1))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.1575825110313679 Adjusted=0.8638693056178197 Hits=14
+Tree 0:
+ ([1.0]rlog ([0.6749544644386274]cos ([1.0]*
+     ([0.9903194690957381]cos [0.8654282871467851]x1)
+     ([1.0]cos [0.7683323992504603]x1))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.1575825110313679 Adjusted=0.8638693056178197 Hits=14
+Tree 0:
+ ([1.0]rlog ([0.6749544644386274]cos ([1.0]*
+     ([0.9903194690957381]cos [0.8654282871467851]x1)
+     ([1.0]cos [0.7683323992504603]x1))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.1575825110313679 Adjusted=0.8638693056178197 Hits=14
+Tree 0:
+ ([1.0]rlog ([0.6749544644386274]cos ([1.0]*
+     ([0.9903194690957381]cos [0.8654282871467851]x1)
+     ([1.0]cos [0.7683323992504603]x1))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.1575825110313679 Adjusted=0.8638693056178197 Hits=14
+Tree 0:
+ ([1.0]rlog ([0.6749544644386274]cos ([1.0]*
+     ([0.9903194690957381]cos [0.8654282871467851]x1)
+     ([1.0]cos [0.7683323992504603]x1))))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.1575825110313679 Adjusted=0.8638693056178197 Hits=14
+Tree 0:
+ ([1.0]rlog ([0.6749544644386274]cos ([1.0]*
+     ([0.9903194690957381]cos [0.8654282871467851]x1)
+     ([1.0]cos [0.7683323992504603]x1))))
+
+
+Performance of Best Individual on Testing Set:
+
+Fitness: Standardized=0.1575825110313679 Adjusted=0.8638693056178197 Hits=14

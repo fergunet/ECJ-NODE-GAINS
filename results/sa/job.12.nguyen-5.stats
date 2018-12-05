@@ -1,0 +1,66 @@
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.3222126281852664 Adjusted=0.7563080087750316 Hits=5
+Tree 0:
+ ([0.24235660030692677]rlog ([0.37675610697588385]rlog
+     ([0.9558147221502615]cos ([0.9758833612829623]-
+         [0.9298654126133947]x1 [0.2261604471034823]x1))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2794840051808496 Adjusted=0.7815650652535154 Hits=11
+Tree 0:
+ ([1.0]sin ([0.2521966074981505]rlog ([0.8726262746316231]%
+     [0.20628139903128606]x1 ([0.48628303390218375]%
+     ([1.0]rlog [0.5124533891366503]x1) ([0.8529628007226907]exp
+     ([0.19688839294262206]rlog ([0.005510900851963179]-
+         [0.2939587990729978]x1 [0.0]x1)))))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.23433578287290235 Adjusted=0.8101523214959478 Hits=14
+Tree 0:
+ ([1.0]sin ([0.6438883567426715]rlog ([0.3439457722629492]%
+     [1.0]x1 ([0.7606340161941069]sin ([0.41683386186291405]rlog
+     ([0.04339612236121186]sin [0.3834552100886023]x1))))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.23433578287290235 Adjusted=0.8101523214959478 Hits=14
+Tree 0:
+ ([1.0]sin ([0.6438883567426715]rlog ([0.3439457722629492]%
+     [1.0]x1 ([0.7606340161941069]sin ([0.41683386186291405]rlog
+     ([0.04339612236121186]sin [0.3834552100886023]x1))))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.23433578287290235 Adjusted=0.8101523214959478 Hits=14
+Tree 0:
+ ([1.0]sin ([0.6438883567426715]rlog ([0.3439457722629492]%
+     [1.0]x1 ([0.7606340161941069]sin ([0.41683386186291405]rlog
+     ([0.04339612236121186]sin [0.3834552100886023]x1))))))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.23433578287290235 Adjusted=0.8101523214959478 Hits=14
+Tree 0:
+ ([1.0]sin ([0.6438883567426715]rlog ([0.3439457722629492]%
+     [1.0]x1 ([0.7606340161941069]sin ([0.41683386186291405]rlog
+     ([0.04339612236121186]sin [0.3834552100886023]x1))))))
+
+
+Performance of Best Individual on Testing Set:
+
+Fitness: Standardized=0.23433578287290235 Adjusted=0.8101523214959478 Hits=14
