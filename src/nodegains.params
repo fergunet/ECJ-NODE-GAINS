@@ -130,8 +130,8 @@ breed = ec.steadystate.SteadyStateBreeder
 ##eval = ec.steadystate.SteadyStateTimeEvaluator
 eval = es.nodegains.gp.SteadyStateTimeEvaluator
 steady.deselector.0 = es.nodegains.steadystate.WorstSelection
-eval.problem.gains-algorithm = none
-eval.runtime = 10000
+eval.problem.gains-algorithm = sa
+eval.runtime = 300000
 
 
 
