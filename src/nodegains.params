@@ -127,8 +127,11 @@ stat =					ec.simple.SimpleStatistics
 #PABLO: Steady state
 state = ec.steadystate.SteadyStateEvolutionState
 breed = ec.steadystate.SteadyStateBreeder
-eval = ec.steadystate.SteadyStateEvaluator
+##eval = ec.steadystate.SteadyStateTimeEvaluator
+eval = es.nodegains.gp.SteadyStateTimeEvaluator
 steady.deselector.0 = es.nodegains.steadystate.WorstSelection
+eval.problem.gains-algorithm = none
+eval.runtime = 10000
 
 
 
@@ -143,7 +146,7 @@ stat.child.0.do-size = true
 stat.child.0.do-time = true
 
 # run for 51 generations, quit prematurely if I find something ideal
-generations =				51
+generations =				5000000
 #evaluations = 400000
 quit-on-run-complete =			true
 

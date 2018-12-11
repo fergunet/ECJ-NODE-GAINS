@@ -657,6 +657,9 @@ public class Benchmarks extends GPProblem implements SimpleProblemForm
     public static final String P_TESTING_FILE = "testing-file";
     public static final String P_TRAINING_FILE = "training-file";
     public static final String P_PROBLEM_TYPE = "type";
+    
+    public static final String P_GAINS_ALGORITHM = "gains-algorithm";
+    public String gainsAlgorithm;
 
     public double[] currentValue;
     
@@ -686,6 +689,13 @@ public class Benchmarks extends GPProblem implements SimpleProblemForm
         InputStream training_file = state.parameters.getResource(base.push(P_TRAINING_FILE), null);
         InputStream testing_file = state.parameters.getResource(base.push(P_TESTING_FILE), null);
         String problem = state.parameters.getString(base.push(P_PROBLEM_TYPE), null);
+        
+        //PABLO 
+        gainsAlgorithm = state.parameters.getString(base.push(P_GAINS_ALGORITHM), null);
+        if(gainsAlgorithm == null){
+            state.output.fatal("Benchmarks.java: "+ P_GAINS_ALGORITHM+" parameter cannot be null!!!");
+        }
+        //END
         int benchmark = -1;
                 
         if (problem == null)
@@ -937,7 +947,17 @@ public class Benchmarks extends GPProblem implements SimpleProblemForm
              }*/
             //System.out.println("Evaluating individual "+ind);
             this.simulatedEvaluations = 0;
-            bestCombination = SARunner.runSA(state, ind, threadnum, this);
+            switch(this.gainsAlgorithm){
+                    case "sa":
+                        bestCombination = SARunner.runSA(state, ind, threadnum, this);
+                        break;
+                    case "none":
+                        break;
+                    default:
+                        state.output.fatal(P_GAINS_ALGORITHM+" parameter is not in the list!");
+            }
+
+            
             //System.out.println("Updated gains" + bestCombination);
             //System.out.println("Number of evaluations in the SA "+this.simulatedEvaluations );
             //((SteadyStateEvolutionState)state).evaluations += this.simulatedEvaluations;
