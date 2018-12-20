@@ -2,10 +2,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import csv
 import os
+import re
 
 
 
-base_directory = "/home/pgarcia/code/NODEGAINSCLUSTER/"
+base_directory = "/home/pgarcia/code/NODEGAINSINCLUSTER"
+
 files = []
 problems = [
 #"koza-1",
@@ -65,39 +67,59 @@ problems = [
 
 
 def obtain_df_from_dir(directory):
-	df = pd.DataFrame(columns=('JOB','PROBLEM','GENS','TOTAL_TIME', 'EVAL_TIME','BEST','AVERAGE_END','NODES_BEST'))
+	df = pd.DataFrame(columns=('JOB','PROBLEM','GENS','TOTAL_TIME','BEST','AVERAGE_END','NODES_BEST','VALIDATION_STANDARIZED', 'VALIDATION_ADJUSTED', 'VALIDATION_HITS', 'OPTIMAL_FOUND'))
 	for p in problems:
 		#print p
 		for i in range(0,20):
 			filename = directory+"/job."+str(i)+"."+p+".gens"
+			filenameStats = directory+"/job."+str(i)+"."+p+".stats"
 			#print("Opening file "+filename)
 			with open(filename, 'rb') as f:
 				reader = csv.reader(f, delimiter=" ")
 				i = 0
 				time = 0
 				best = 0
-				eval_time = 0
+				#eval_time = 0
 				average_gen = 0
 				gens = 0.0
 				size_best = 0
+				optimal_found = 0.0
 				for row in reader:
 					time = float(row[0])
-					eval_time = float(row[1]) + eval_time
+					#eval_time = float(row[1]) + eval_time
 					size_best = float(row[4])
 					average_gen = float(row[5])
 					best = float(row[7])
+					if best == 1.0:
+						#print "OPTIMAL FOUND IN "+filename
+						optimal_found = 1.0
 					gens = gens + 1
-				df.loc[len(df)] = [i, p, gens, time, eval_time, best, average_gen, size_best]
+
+			with open(filenameStats, 'rb') as f:
+				f.seek(-2, os.SEEK_END)  # Jump to the second last byte.
+				while f.read(1) != b"\n":  # Until EOL is found...
+					f.seek(-2, os.SEEK_CUR)  # ...jump back the read byte plus one more.
+				last = f.readline()
+				last_info = re.split(" |=|\n", last)
+				validation_standarized = float(last_info[2])
+				validation_adjusted = float(last_info[4])
+				validation_hits= float(last_info[6])
+				#print(last_info)
+
+			df.loc[len(df)] = [i, p, gens, time, best, average_gen, size_best, validation_standarized, validation_adjusted, validation_hits, optimal_found ]
 	return df
 
 
 def print_results(dataframe):
-	pd.options.display.float_format = '{:20,.10f}'.format
-	#print(dataframe)
-	print(dataframe.groupby('PROBLEM').mean())
+	pd.options.display.float_format = '{:20.10f}'.format
+	#with pd.option_context('display.max_rows', None, 'display.max_columns', None):
+	print(dataframe.to_string())
+	#print(dataframe.groupby('PROBLEM').mean().to_string())
 
-df_sa = obtain_df_from_dir(base_directory+"/NONE/classes")
-df_nosa = obtain_df_from_dir(base_directory+"/SA/classes")
+df_nosa = obtain_df_from_dir(base_directory+"/NONE/classes")
+df_sa = obtain_df_from_dir(base_directory+"/SA/classes")
 
-print_results(df_sa)
+print("NONE")
 print_results(df_nosa)
+#print("SA")
+#print_results(df_sa)
