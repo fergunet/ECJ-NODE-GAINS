@@ -213,6 +213,7 @@ public class SteadyStateEvolutionState extends EvolutionState
                 else  
                     { 
                     ind = ((SteadyStateBreeder)breeder).breedIndividual(this, whichSubpop,0); 
+                    System.out.println("INDIVIDUAL OBTAINED FROM BREEDER");
                     statistics.individualsBredStatistics(this, new Individual[]{ind}); 
                     }
                                 
@@ -232,7 +233,7 @@ public class SteadyStateEvolutionState extends EvolutionState
             }
         
         Individual ind = ((SteadyStateEvaluator)evaluator).getNextEvaluatedIndividual();
-        //System.out.println("     OBTAINED INDIVIDUAL "+ind.fitness.fitnessToStringForHumans());
+        System.out.println("     OBTAINED INDIVIDUAL "+ind.fitness.fitnessToStringForHumans());
         if (ind != null)   // do we have an evaluated individual? 
             {
             int subpop = ((SteadyStateEvaluator)evaluator).getSubpopulationOfEvaluatedIndividual(); 
@@ -256,9 +257,9 @@ public class SteadyStateEvolutionState extends EvolutionState
                 if (ind.fitness.betterThan(deadInd.fitness) ||         // it's better, we want it
                     random[0].nextDouble() < replacementProbability)  {    // it's not better but maybe we replace it directly anyway
                     population.subpops[subpop].individuals[deadIndividual] = ind;
-                    //System.out.println("     REPLACES INDIVIDUAL "+deadInd.fitness.fitnessToStringForHumans());
+                    System.out.println("     REPLACES INDIVIDUAL "+deadInd.fitness.fitnessToStringForHumans());
                 }else
-                    //System.out.println("DONT REPLACES INDIVIDUAL "+deadInd.fitness.fitnessToStringForHumans());
+                    System.out.println("DONT REPLACES INDIVIDUAL "+deadInd.fitness.fitnessToStringForHumans());
                 // update duplicate hash table 
                 individualHash[subpop].remove(deadInd); 
                                 
